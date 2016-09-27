@@ -1,0 +1,82 @@
+Opening work\batch2.dos.xml
+#####################
+Parsing wd
+ID: swd1
+Path: work
+#####################
+Parsing file
+ID: file1
+Path: randomwords.txt
+#####################
+Parsing file
+ID: file2
+Path: sortedwords.txt
+#####################
+Parsing cmd
+ID: cmd1
+Path: sort
+inID: file1
+outID: file2
+#####################
+Parsing file
+ID: file3
+Path: reversesort.txt
+#####################
+Parsing cmd
+ID: cmd2
+Path: sort
+Arg /R
+inID: file1
+outID: file3
+Parsing is complete and the batch is built
+##########################################
+##########################################
+Batch execution has started
+List of Commands in the Batch are
+swd1
+file1
+file2
+cmd1
+file3
+cmd2
+
+WDCommand has started
+WD command is being executed
+ID of the WD command being executed is swd1
+The working directory has been set to work
+execution of the WD command has finished
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file1
+path of the file is set as randomwords.txt
+execution of the file command has finished
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file2
+path of the file is set as sortedwords.txt
+execution of the file command has finished
+##########################################
+
+CmdCommand execution has started
+The Commands for the process being executed by Cmd command are[sort, randomwords.txt]
+The process is completed
+Cmd command execution has finished 
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file3
+path of the file is set as reversesort.txt
+execution of the file command has finished
+##########################################
+
+CmdCommand execution has started
+The Commands for the process being executed by Cmd command are[sort, /R, randomwords.txt]
+The process is completed
+Cmd command execution has finished 
+##########################################
+Batch execution has finished

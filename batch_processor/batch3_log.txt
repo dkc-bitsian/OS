@@ -1,0 +1,85 @@
+Opening work\batch3.xml
+#####################
+Parsing wd
+ID: swd1
+Path: work
+#####################
+Parsing file
+ID: file1
+Path: numberdata.txt
+#####################
+Parsing file
+ID: file2
+Path: sumout.txt
+#####################
+Parsing cmd
+ID: cmd1
+Path: java.exe
+Arg -jar
+Arg addLines.jar
+inID: file1
+outID: file2
+#####################
+Parsing file
+ID: file3
+Path: avgout.txt
+#####################
+Parsing cmd
+ID: cmd2
+Path: java.exe
+Arg -jar
+Arg avgFile.jar
+inID: file2
+outID: file3
+Parsing is complete and the batch is built
+##########################################
+##########################################
+Batch execution has started
+List of Commands in the Batch are
+swd1
+file1
+file2
+cmd1
+file3
+cmd2
+
+WDCommand has started
+WD command is being executed
+ID of the WD command being executed is swd1
+The working directory has been set to work
+execution of the WD command has finished
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file1
+path of the file is set as numberdata.txt
+execution of the file command has finished
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file2
+path of the file is set as sumout.txt
+execution of the file command has finished
+##########################################
+
+CmdCommand execution has started
+The Commands for the process being executed by Cmd command are[java.exe, -jar, addLines.jar, numberdata.txt]
+The process is completed
+Cmd command execution has finished 
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file3
+path of the file is set as avgout.txt
+execution of the file command has finished
+##########################################
+
+CmdCommand execution has started
+The Commands for the process being executed by Cmd command are[java.exe, -jar, avgFile.jar, sumout.txt]
+The process is completed
+Cmd command execution has finished 
+##########################################
+Batch execution has finished

@@ -1,0 +1,65 @@
+Opening work\batch4.xml
+#####################
+Parsing wd
+ID: swd1
+Path: work
+#####################
+Parsing file
+ID: file1
+Path: numberdata.txt
+#####################
+Parsing file
+ID: file2
+Path: avgout1.txt
+#####################
+Parsing pipe
+ID: pipe1
+ID: addLines
+Path: java.exe
+Arg -jar
+Arg addLines.jar
+inID: file1
+ID: avgFile
+Path: java.exe
+Arg -jar
+Arg avgFile.jar
+outID: file2
+Parsing is complete and the batch is built
+##########################################
+##########################################
+Batch execution has started
+List of Commands in the Batch are
+swd1
+file1
+file2
+pipe1
+
+WDCommand has started
+WD command is being executed
+ID of the WD command being executed is swd1
+The working directory has been set to work
+execution of the WD command has finished
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file1
+path of the file is set as numberdata.txt
+execution of the file command has finished
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file2
+path of the file is set as avgout1.txt
+execution of the file command has finished
+##########################################
+
+PipeCommand execution has started
+Pipe command is being executed
+ID of the Pipe command being executed is pipe1
+Executing the first cmd of pipe command with ID-addLines
+Executing the second cmd of pipe command with ID-avgFile
+Pipe Command has completed execution
+##########################################
+Batch execution has finished

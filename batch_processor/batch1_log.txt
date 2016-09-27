@@ -1,0 +1,45 @@
+Opening work\batch1.dos.xml
+#####################
+Parsing wd
+ID: swd1
+Path: work
+#####################
+Parsing file
+ID: file1
+Path: dirout.txt
+#####################
+Parsing cmd
+ID: cmd1
+Path: cmd
+Arg /c
+Arg dir
+outID: file1
+Parsing is complete and the batch is built
+##########################################
+##########################################
+Batch execution has started
+List of Commands in the Batch are
+swd1
+file1
+cmd1
+
+WDCommand has started
+WD command is being executed
+ID of the WD command being executed is swd1
+The working directory has been set to work
+execution of the WD command has finished
+##########################################
+
+FileCommand execution has started
+File is being executed
+ID of the file command being executed is file1
+path of the file is set as dirout.txt
+execution of the file command has finished
+##########################################
+
+CmdCommand execution has started
+The Commands for the process being executed by Cmd command are[cmd, /c, dir]
+The process is completed
+Cmd command execution has finished 
+##########################################
+Batch execution has finished
